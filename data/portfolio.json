@@ -1,0 +1,14 @@
+{
+    "PortfolioList": [
+        {
+            "id": "bamsaengki",
+            "title": "프로젝트명",
+            "duration": "2022-01-01 ~ 2022-02-01",
+            "lang": "java, js",
+            "part": "90%",
+            "thumbnail": "",
+            "content": "",
+            "updateat": "sex"
+        }
+    ]
+}
