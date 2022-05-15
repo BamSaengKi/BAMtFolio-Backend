@@ -49,7 +49,7 @@ router.put('/', (req, res)=>{
 })
 
 // 포트폴리오 삭제
-router.delete('/', (req,res) =>{
+router.delete('', (req,res) =>{
   try {
     const body = req.body;
 
@@ -72,7 +72,7 @@ router.delete('/', (req,res) =>{
 })
 
 // 포트폴리오 조회
-router.get('/', function(req, res, next) {
+router.get('', function(req, res, next) {
   try {
 
       const result = protfolioService.getproject();

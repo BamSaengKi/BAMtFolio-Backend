@@ -121,6 +121,7 @@ const protfolioService = {
             pfWrapper.PortfolioList = newPortpolio;
 
             fs.writeFileSync('data/portfolio.json', JSON.stringify(pfWrapper));
+            
 
             return true
         } catch (error) {
